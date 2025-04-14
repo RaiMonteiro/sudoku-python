@@ -1,0 +1,18 @@
+{
+    "scoreTable": [
+        {
+            "name": "rai",
+            "difficulty": "Fácil",
+            "time": "00 : 31",
+            "errors": 3,
+            "points": 0
+        },
+        {
+            "name": "rai2",
+            "difficulty": "Fácil",
+            "time": "00 : 31",
+            "errors": 3,
+            "points": 0
+        }
+    ]
+}
