@@ -8,6 +8,7 @@ import scripts.config as cfg
 import scripts.utils as u
 from components.btn import Button
 from components.block import Block
+from scripts.updates.updater import checkForUpdates
 
 def main():
     pygame.init()
@@ -15,7 +16,9 @@ def main():
     cfg.DISPLAYSURF = pygame.display.set_mode((cfg.WIN_WIDTH, cfg.WIN_HEIGHT))
     cfg.FPSCLOCK = pygame.time.Clock()
     pygame.display.set_caption("Sudoku")
-    pygame.display.set_icon(cfg.ASSETS[7])
+    pygame.display.set_icon(pygame.image.load('./assets/icons/logo.ico'))
+
+    if checkForUpdates() == "UPDATE_SUCESS": u.close()
 
     cfg.FONT_CFG = [
         pygame.font.Font("./assets/font/YatraOne-Regular.ttf", 20),
