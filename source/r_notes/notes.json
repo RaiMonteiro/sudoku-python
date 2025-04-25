@@ -5,8 +5,8 @@
             "version": "2.0.3 (Beta)",
             "release_notes": 
             {
-                "title": "Atualização 2.0.2",
-                "date": "14/04/2025",
+                "title": "Atualização 2.0.3",
+                "date": "25/04/2025",
                 "content": 
                 [
                     [
@@ -24,7 +24,7 @@
                         ["point", "Lançamento de notas após cada atulização"]
                     ],
                     [
-                        ["note", "Nota: O botão de ajuda ('?') encontra-se temporariamente inoperacional, mas será corrigido\nnuma atualização futura."]
+                        ["note", "Nota: Esta versão do jogo corresponde a uma versão beta e, como tal, poderá ainda conter erros, instabilidades\nou funcionalidades em fase de finalização.\nAgradece-se a todos os utilizadores que reportem comportamentos anómalos ou proponham melhorias. O seu\ncontributo é essencial para o aperfeiçoamento da experiência de jogo."]
                     ]
                 ]
             },
