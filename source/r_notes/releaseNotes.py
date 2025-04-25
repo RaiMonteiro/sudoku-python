@@ -107,14 +107,15 @@ class Notes:
         for i in range(len(self.notes["update"])):
             self.all_versions.append(VersionButton(i, self.notes["update"][i]["version"]))
             self.released_notes.append(self.notes["update"][i]["release_notes"])
-            if self.current_notes_index == None:
-                if self.notes["update"][i]["new"] == True: self.current_notes_index = i
 
         if self.current_notes_index != None:
             self.notes["update"][self.current_notes_index]["active"] = True
         else:
             self.current_notes_index = len(self.all_versions) - 1
             self.notes["update"][self.current_notes_index]["active"] = True
+
+            if self.notes["update"][self.current_notes_index]["new"] == True:
+                self.render = True
 
         self.all_versions[self.current_notes_index].active = True
 
@@ -149,6 +150,9 @@ class Notes:
         cfg.releasenotes_btn.updating = True
         self.current_notes_index = None
         self.all_versions[-1].active = True
+        self.notes["update"][-1]["new"] = False
+        # rewrite the json file with the new information
+        with open("source/r_notes/notes.json", mode="w", encoding="utf-8") as file: json.dump(self.notes, file, indent=4, ensure_ascii=False)
         self.content.reset() # resets the starting position
 
 class ContentDisplayment:

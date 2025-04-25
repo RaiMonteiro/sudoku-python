@@ -30,8 +30,7 @@ ASSETS = [
     pygame.image.load('./assets/img/timer-box.png'),
     pygame.image.load('./assets/img/block.png'),
     pygame.image.load('./assets/img/btn-texture.png'),
-    pygame.image.load('./assets/img/logo-menu.png'),
-    pygame.image.load('./assets/img/logo.png')
+    pygame.image.load('./assets/img/logo-menu.png')
 ]
 SOUNDS = None
 

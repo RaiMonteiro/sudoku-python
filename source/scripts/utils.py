@@ -133,11 +133,6 @@ def inputHandler(shutdown = True, buttons = None, blocks = None): # manages the 
             cfg.releasenotes.content.scroll.eventHandler(event)
             for b in cfg.releasenotes.all_versions: b.eventHandler(event)
 
-
-    # Sujeito a ser retirado    
-    if pygame.key.get_pressed()[pygame.K_ESCAPE]:
-        close()
-
 def shuffle(list):
     for i in range(8, 0, -1):
         r = random.randint(0, i)
