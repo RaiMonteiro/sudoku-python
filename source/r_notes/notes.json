@@ -6,22 +6,22 @@
             "release_notes": 
             {
                 "title": "Atualização 2.0.3",
-                "date": "25/04/2025",
+                "date": "14/04/2025",
                 "content": 
                 [
                     [
                         ["title", "Bem-vindos à Primeira Versão Beta do Sudoku!"],
-                        ["text", "Esta é a primeira versão jogável do projeto de recriação do clássico Sudoku, agora\nreformulado e aprimorado, após o seu desenvolvimento inicial num projeto universitário."],
+                        ["text", "Esta é a primeira versão jogável do projeto de recriação do clássico Sudoku, agora\nreformulado e melhorado, após o seu desenvolvimento inicial num projeto universitário."],
                         ["text", "O objetivo desta versão é proporcionar uma experiência de jogo suave, relaxante e\nenvolvente, onde o divertimento e o raciocínio lógico são os elementos centrais."],
                         ["text", "Cada jogador tem a oportunidade de desfrutar do desafio de resolver o tabuleiro num\nambiente imersivo e agradável."]
                     ],
                     [
                         ["title", "Novidades desta atualização:"],
-                        ["point", "Aprimoramento gráfico"],
+                        ["point", "Melhoramento gráfico"],
                         ["point", "Maior interação com o jogador"],
                         ["point", "Introdução de blocos móveis para inserir números no tabuleiro, com a possibilidade\nde removê-los"],
                         ["point", "Sistema de pontuação reformulado, para maior equilíbrio e desafio"],
-                        ["point", "Lançamento de notas após cada atulização"]
+                        ["point", "Lançamento de notas após cada atualização"]
                     ],
                     [
                         ["note", "Nota: Esta versão do jogo corresponde a uma versão beta e, como tal, poderá ainda conter erros, instabilidades\nou funcionalidades em fase de finalização.\nAgradece-se a todos os utilizadores que reportem comportamentos anómalos ou proponham melhorias. O seu\ncontributo é essencial para o aperfeiçoamento da experiência de jogo."]
