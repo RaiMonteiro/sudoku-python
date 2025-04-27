@@ -11,7 +11,7 @@ The development of this game covered several areas and was extremely enriching o
 I recommend everyone to explore the source code, always respecting the project's license.
 
 ## How to Install
-1. Go to the **releases** section of this project on GitHub and download the **latest version** of the installer;  
+1. Go to the **releases** section of this project on GitHub and download the **latest version** of the installer (https://github.com/RaiMonteiro/sudoku-python/releases);  
 2. After downloading, run the installer file;  
 (Note: Your computer may display a security warning. You can proceed with the installation with confidence — **the installer does not contain any viruses**.)
 4. Follow the steps presented by the installer until completion;  
@@ -45,7 +45,7 @@ O desenvolvimento deste jogo abrangeu várias áreas e foi extremamente enriquec
 Recomendo a todos a explorarem o código fonte, sempre respeitando a licença do projeto.
 
 ## Como Instalar
-1. Acede à secção de **releases**, deste projeto no GitHub, e faz o download da **versão mais recente** do instalador;  
+1. Acede à secção de **releases**, deste projeto no GitHub, e faz o download da **versão mais recente** do instalador (https://github.com/RaiMonteiro/sudoku-python/releases);  
 2. Após a transferência, executa o ficheiro do instalador;  
 (Nota: O computador pode mostrar um aviso de segurança. Podes avançar com a instalação com confiança — **o instalador não contém qualquer tipo de vírus**.)
 3. Segue os passos apresentados pelo instalador até à conclusão;  
